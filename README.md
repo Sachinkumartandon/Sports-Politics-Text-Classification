@@ -42,6 +42,20 @@ Text documents are converted into numerical vectors using:
 └── README.md
 
 ---
+## Results
+Naive Bayes Accuracy: 1.0
+Logistic Regression Accuracy: 0.9946
+SVM Accuracy: 1.0
+
+Detailed Classification Report (SVM):
+              precision    recall  f1-score   support
+
+    politics       1.00      1.00      1.00        86
+       sport       1.00      1.00      1.00       100
+
+    accuracy                           1.00       186
+   macro avg       1.00      1.00      1.00       186
+weighted avg       1.00      1.00      1.00       186
 
 ## Requirements
 
